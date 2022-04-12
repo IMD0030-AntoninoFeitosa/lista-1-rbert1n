@@ -10,7 +10,33 @@ using std::endl;
 
 int main( void )
 {
-    // TODO: Adicione seu código aqui. 
-
+    int m, n = 0, result;
+    
+    while( cin >> std::ws >> m) {
+      cin >> std::ws >> n;
+      result = m;
+      if (n = 0){
+      cout << m << endl;
+      }
+      if (n > 0)
+      {
+        for (int i = 1; i < n; i++)
+        {
+          result = result + ++m;
+        }
+        cout << result << endl;
+      }
+      else if (n < 0){
+        for (int i = -1; i > n; i--)
+        {
+          result = result + --m;
+        }
+        cout << result << endl;
+      }
+      else{
+        cout << result << endl;
+      }
+    }
+    
     return 0;
 }
