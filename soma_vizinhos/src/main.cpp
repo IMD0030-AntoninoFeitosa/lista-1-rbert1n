@@ -10,14 +10,11 @@ using std::endl;
 
 int main( void )
 {
-    int m, n = 0, result;
+    int m, n, result;
     
     while( cin >> std::ws >> m) {
       cin >> std::ws >> n;
       result = m;
-      if (n = 0){
-      cout << m << endl;
-      }
       if (n > 0)
       {
         for (int i = 1; i < n; i++)
