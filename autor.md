@@ -2,15 +2,15 @@
 
 Preencha os dados abaixo para identificar a autoria do trabalho.
 
-- Nome: *\<__insira seu nome aqui__>*
-- Email: *\<insira seu email aqui>*
-- Turma: *\<insira sua turma aqui>*
+- Nome: *Robert Matheus Costa Targino*
+- Email: *robert.targino@hotmail.com*
+- Turma: *T03*
 
 # Questões Finalizadas
 
-- [ ] Negativos 5
-- [ ] Soma Vizinhos
-- [ ] Intervalos
+- [x] Negativos 5
+- [x] Soma Vizinhos
+- [x] Intervalos
 - [ ] Fibonacci
 - [ ] Minmax
 - [ ] Inverter
