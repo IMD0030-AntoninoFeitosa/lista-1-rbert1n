@@ -6,16 +6,16 @@ const int SIZE = 5; // input size.
 
 int main(void)
 {
-  int x[SIZE], count=0; 
+  int x, count=0; 
 
   for (int i = 0; i < SIZE; i++){    
-    std::cin>>x[i];
-    if( x[i] < 0){
+    cin >> std::ws >> x;
+    if( x < 0){
       count++;
     }
   }
   
-  std::cout << count;  
+  cout << count;  
       
     return 0;
 } 
